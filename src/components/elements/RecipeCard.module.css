@@ -1,0 +1,80 @@
+.RecipeCard {
+    display:flex;
+    flex-direction: column;
+    height: auto;
+    width: auto;
+    box-shadow: 3px 3px 10px #888888;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.RecipePhoto {
+    height: 300px;
+    width: 300px;
+    padding-bottom: 5px;
+}
+
+.RecipeButton {
+    border-style: none;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .RecipeButton:hover {
+    background-color: orange;
+  }
+
+h2 {
+    color: black;
+    padding-bottom: 5px;
+}
+
+.RecipeDisplay {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: 3rem;
+    margin-left: 3rem;
+    margin-bottom: 3rem;
+}
+
+input:focus {
+    outline: none;
+  }
+  
+  .search_bar svg {
+    height: 80%;
+  }
+  
+  .search_bar input {
+    width: 100%;
+    border-radius: 0 30px 30px 0;
+    font-size: 20px;
+  }
+  
+  input {
+    height: 45px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent
+  }
+  
+  .search_bar {
+    min-width: 250px;
+    height: 35px;
+    width: 30vw;
+    border-radius: 50px;
+    background-color: rgb(255, 227, 176);
+    display: flex;
+    align-items: center;
+    padding: 0 0 0 5px;
+    box-sizing: border-box;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+  }

@@ -1,0 +1,43 @@
+.ad_banner {
+    width: 100%;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-size: cover;
+  }
+
+  .ad_text {
+    color: white;
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+    align-content: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+
+  }
+
+  .pineappleSalmon {
+    color: orange;
+    font-size: 2rem;
+  }
+
+  .bluebtn {
+    border-style: none;
+    background-color: orange;
+    color: white;
+    padding: 10px;
+  }
+
+  .bluebtn:hover {
+    background-color: black;
+  }
+  
+
