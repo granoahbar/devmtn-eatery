@@ -138,7 +138,7 @@ const NewRecipeScreen = () => {
               className="orange-btn"
               onClick={addIngredient}
             >
-              Add Another
+              Add Another Ingredient
             </button>
             <textarea
               placeholder="Type your instructions"
@@ -148,7 +148,7 @@ const NewRecipeScreen = () => {
               name="instructions"
             />
             <button type="submit" className="blue-btn">
-              Submit
+              Submit Recipe
             </button>
           </form>
         )}

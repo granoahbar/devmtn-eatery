@@ -6,7 +6,6 @@ import styles from "./DetailScreen.module.css";
 
 const DetailScreen = () => {
   const { id } = useParams();
-  // The rest of your component...
   const [recipe, setRecipe] = useState({});
   const url = "https://recipes.devmountain.com";
   console.log(recipe);
@@ -24,7 +23,6 @@ const DetailScreen = () => {
     <section>
       <DetailImage image={recipe.image_url} title={recipe.recipe_name} />
       <div className={styles.details_container}>
-        {/* <div className={styles.detail_half}> */}
           <div className={styles.ingredients_container}>
             <h2>Recipe</h2>
             <h4>Prep Time: {recipe.prep_time}</h4>
@@ -36,8 +34,6 @@ const DetailScreen = () => {
               return <h4>{ing.quantity} {ing.ingredient}</h4>
             })}
           </div>
-        {/* </div> */}
-
         <div className={styles.instruction_container}>
           <h2>Instructions</h2>
           <p style={{ whiteSpace: "pre-wrap" }}>
